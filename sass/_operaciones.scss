@@ -1,0 +1,8 @@
+@mixin varios($width, $height){
+    height:  $height
+    width:   $width
+}
+
+.img{
+    @include varios(300px, 250px)
+}
